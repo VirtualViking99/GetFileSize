@@ -23,7 +23,7 @@ int main(void)
 
 
 	
-	std::cout << "Filename: " << StringFilename << "\nFile Size: " << GetFileSizeEx(FH, &filesize) << std::endl;
+	std::cout << "Filename: " << StringFilename << "\nFile Size: " << GetFileSize(FH, NULL) << std::endl;
 	return 0;
 
 
